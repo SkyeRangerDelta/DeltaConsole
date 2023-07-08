@@ -1,5 +1,6 @@
 import './App.css'
 import Home from "./comps/Home.tsx";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {useEffect} from "react";
 
 function App() {
