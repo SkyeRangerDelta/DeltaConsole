@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="009842ed-3496-40f9-bbea-e537c6ed6711" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/delta-console/src/assets/comp_css/TextComps.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delta-console/src/assets/comp_css/UIComps.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delta-console/src/comps/Greeting.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delta-console/src/comps/Shlink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delta-console/src/comps/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delta-console/src/services/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delta-console/src/services/authHeader.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delta-console/src/services/user.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delta-console/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/delta-console/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delta-console/src/assets/comp_css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/delta-console/src/assets/comp_css/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delta-console/src/assets/comp_css/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/delta-console/src/assets/comp_css/NavBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delta-console/src/comps/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/delta-console/src/comps/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delta-console/src/comps/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/delta-console/src/comps/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delta-console/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/delta-console/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delta-console/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/delta-console/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delta-console/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/delta-console/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delta-console/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/delta-console/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delta-console/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/delta-console/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -41,24 +41,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/GitHub Repos/DeltaConsole/delta-console/src/assets/img/bgs&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;G:\\GitHub Repos\\DeltaConsole\\delta-console\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "G:/GitHub Repos/DeltaConsole/delta-console/src/assets/img/bgs",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.TypeScript",
+    "ts.external.directory.path": "G:\\GitHub Repos\\DeltaConsole\\delta-console\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\GitHub Repos\DeltaConsole\delta-console\src\assets\img\bgs" />
@@ -78,6 +81,7 @@
       <updated>1688576584936</updated>
       <workItem from="1688576586877" duration="16693000" />
       <workItem from="1688768459737" duration="9680000" />
+      <workItem from="1688927990991" duration="4808000" />
     </task>
     <servers />
   </component>

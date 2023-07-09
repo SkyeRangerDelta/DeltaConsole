@@ -21,6 +21,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+
     "incremental": true,
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true
