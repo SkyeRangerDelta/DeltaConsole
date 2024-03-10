@@ -1,0 +1,9 @@
+<main xmlns="http://www.w3.org/1999/html">
+  <div class="container">
+    <h1>DeltaConsole</h1>
+    <input *ngIf="clicks <= clickLimit" type="button" value="Click me [{{clicks}}]" (click)="increaseClicks($event)">
+    <h4 *ngIf="clicks > clickLimit">Ok, that's enough clicks.</h4>
+  </div>
+</main>
+
+<router-outlet />
