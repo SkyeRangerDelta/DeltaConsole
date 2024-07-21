@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url("/assets/images/backgrounds/ash-edmonds-blue-abstract.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

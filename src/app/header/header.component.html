@@ -1,0 +1,15 @@
+<header class="header">
+  <div class="header-container">
+    <img ngSrc="assets/images/pldyn-icon.png" alt="Delta Logo" height="64" width="64" priority/>
+    <h1>
+      Delta Console
+    </h1>
+    <nav>
+      <ul class="nav-links">
+        <li *ngFor="let tab of tabs">
+          <a routerLink="{{tab.route}}">{{tab.title}}</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
