@@ -29,7 +29,9 @@ export class AppComponent {
       'pawel-czerwinski-glass-geo-unsplash.jpg',
       'pawel-czerwinski-glass-but-different-unsplash.jpg',
       'visax-abstract-blue-waves-unsplash.jpg',
-      'skye-glass-1.png'
+      'skye-glass-1.png',
+      'skye-glass-2.png',
+      'skye-glass-3.png'
     ];
 
     // Return a random image path
