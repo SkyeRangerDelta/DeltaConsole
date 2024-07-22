@@ -1,6 +1,9 @@
+@import '../../assets/base-styles.scss';
+
 .center-info {
   display: grid;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: $text;
+  background-color: $panel-dark;
 }

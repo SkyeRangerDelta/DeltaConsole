@@ -1,5 +1,7 @@
+@import 'assets/base-styles.scss';
+
 body {
-  background-image: url("/assets/images/backgrounds/ash-edmonds-blue-abstract.jpg");
+  background-color: $secondary;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
