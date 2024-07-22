@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="009842ed-3496-40f9-bbea-e537c6ed6711" name="Changes" comment="build: rebuild codebase for angular 15">
-      <change afterPath="$PROJECT_DIR$/src/assets/base-styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header/header.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/landing-module/landing-module.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/landing-module/landing-module.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/media-module/media-module.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/media-module/media-module.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/base-styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/base-styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
