@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="009842ed-3496-40f9-bbea-e537c6ed6711" name="Changes" comment="build: rebuild codebase for angular 15">
-      <change beforePath="$PROJECT_DIR$/src/app/landing-module/landing-module.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/landing-module/landing-module.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/base-styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header/header.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/landing-module/landing-module.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/landing-module/landing-module.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/media-module/media-module.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/media-module/media-module.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +24,7 @@
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="Dockerfile" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -65,7 +69,7 @@
     "git-widget-placeholder": "angular-dev",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/GitHub Repos/DeltaConsole/src/assets/images/backgrounds",
-    "list.type.of.created.stylesheet": "CSS",
+    "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
