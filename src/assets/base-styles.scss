@@ -1,0 +1,60 @@
+// Define color pallet
+$panel-dark: #333;
+$text: #D7F2FA;
+$primary: #3E6A87;
+$secondary: #0A151F;
+$accent: #2CD8F6;
+
+// Define font sizes
+$font-xs: 0.75rem;
+$font-sm: 0.875rem;
+$font-md: 1rem;
+$font-lg: 1.25rem;
+$font-xl: 1.5rem;
+$font-xxl: 2rem;
+
+// Define font families
+$font-sans: "Lucida Console", "Helvetica Neue", sans-serif;
+$font-serif: Georgia, "Times New Roman", Times, serif;
+$font-mono: "Courier New", Courier, monospace;
+
+// Define spacing
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 2rem;
+$spacing-xl: 4rem;
+$spacing-xxl: 8rem;
+$spacing-xxxl: 16rem;
+
+// Define responsive breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Define media queries
+@mixin respond-to($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+// Define anims
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    opacity: 1;
+  }
+  20%, 24%, 55% {
+    opacity: 0.25;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
